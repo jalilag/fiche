@@ -19,3 +19,6 @@ git commit -m "message" # validation des modifs
 git checkout master
 git merge test # fusion des branches
 git push origin master # envoie des modifs vers le dossier d'origine (github)
+
+# Mettre a jour son projet avec les éléments en ligne
+git fetch origin
