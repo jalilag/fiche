@@ -22,3 +22,7 @@ git push origin master # envoie des modifs vers le dossier d'origine (github)
 
 # Mettre a jour son projet avec les éléments en ligne
 git fetch origin
+
+# Pour ignorer des fichiers dans les commit:
+1 : creer un fichier .gitignore à la racine
+2 : ajouter dedans les fichiers
