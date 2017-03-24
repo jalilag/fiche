@@ -8,7 +8,7 @@ git config --global user.name "name"
 3 : git remote add origin lien -> Configuration local pour le push
 4 : git add*; git commit -m "First commit"; git push nom_du_dossier -> Envoi distant des infos ... 
 
-# Procédure lors de la récupération d'un dossier git existant
+# Procédure lors de la récupération d'un dossier git existant, configure le remote
 git clone liengit
 
 # Branche merge commit et push
