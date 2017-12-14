@@ -1,0 +1,3 @@
+# Résoudre le problème : Unable to create process using '"'
+# Il faut réinstaller le package en utilisant la commande suivante :
+pip install --upgrade --force-reinstall <package> 
