@@ -1,4 +1,4 @@
-# configuration de git
+﻿# configuration de git
 git config --global user.mail "adress mail"
 git config --global user.name "name"
 
@@ -26,3 +26,7 @@ git fetch origin
 # Pour ignorer des fichiers dans les commit:
 1 : creer un fichier .gitignore à la racine
 2 : ajouter dedans les fichiers
+
+# Forcer un pull
+git fetch --all
+git reset --hard origin/master
