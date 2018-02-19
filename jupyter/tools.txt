@@ -1,0 +1,13 @@
+## Configuration de Jupyter
+
+# Génération du fichier configuration dans le dossier .jupyter/ 
+jupyter notebook --generate-config
+
+# Changement de navigateur (exemple avec chrome) :
+import webbrowser
+webbrowser.register('chrome', None, webbrowser.GenericBrowser('chrome.exe'))
+c.NotebookApp.browser = 'chrome'
+
+# Choix du répertoire de sauvegarde :
+c.NotebookApp.notebook_dir =
+
