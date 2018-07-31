@@ -30,3 +30,13 @@ git fetch origin
 # Forcer un pull
 git fetch --all
 git reset --hard origin/master
+
+# Revenir au push précédent en sauvegardant dans une corbeil les nouveautés
+git stash save -u # Sauvegarde et retour
+git stash pop # Restaurer les nouveauté
+
+# Voir ce qui a changé
+git diff --cached
+
+# Annuler tous ses commit
+git reset
