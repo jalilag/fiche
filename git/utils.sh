@@ -40,3 +40,8 @@ git diff --cached
 
 # Annuler tous ses commit
 git reset
+
+# Rebase permet d'appliquer les commits d'une branche dans une autre.
+# supposons la branche B en avance sur la branche A
+# On applique B dans A ainsi
+git rebase A B
