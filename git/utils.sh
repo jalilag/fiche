@@ -38,10 +38,22 @@ git stash pop # Restaurer les nouveauté
 # Voir ce qui a changé
 git diff --cached
 
-# Annuler tous ses commit
-git reset
+# Annuler tous ses commit de puis commit_id
+git reset commit_id
 
 # Rebase permet d'appliquer les commits d'une branche dans une autre.
 # supposons la branche B en avance sur la branche A
 # On applique B dans A ainsi
 git rebase A B
+
+# Editer le commit précédent
+git commit --amend
+# Le nouveau commit sera intégré au commit précédent
+
+# Changer l'ordre des commits en interchangeant les lignes
+git rebase -i commit_id
+# commit_id est le plus ancien commit à partir duquel on veut travailler
+# On peut aussi retravailler sur un commit précédent avec la même commande
+git rebase -i commit_id
+# On ecrit "edit" à la place de "pick" sur la ligne de commit que nous voulons éditer
+# Ensuite on fait un git commit --amend puis git rebase --continue
