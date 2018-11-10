@@ -1,0 +1,12 @@
+## Initialiser un nouveau projet
+npm init
+
+## Installer un package
+npm install ...
+
+## Configuration du serveur dans package.json
+
+## Nodemon
+Package nodemon permet d'avoir une compilation du projet à chaque changement
+Remplacer dans les scripts (package.json) "start": "nodemon fichier.js"  
+Lancement des scripts : npm run start
